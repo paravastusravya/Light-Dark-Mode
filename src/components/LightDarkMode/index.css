@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  border-radius: 15px;
+}
+.dark-mode {
+  background-color: black;
+}
+.light-mode {
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+}
+.light-mode-heading {
+  color: #ffffff;
+}
+.dark-mode-heading {
+  color: black;
+}
+.btn {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  border: 2px solid black;
+}
